@@ -32,12 +32,19 @@ namespace inventory
             }
         }
 
+
+
         private void process_ValueChanged(object sender, EventArgs e)
         {
             timer1.Start();
         }
 
         private void process_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
